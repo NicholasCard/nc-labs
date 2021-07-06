@@ -16,8 +16,10 @@ public class StringMethods {
 		 */
 		System.out.println(str.length());
 		
-		/*indexOf() returns the index of a specific character
-		 * 
+		/*
+		 * indexOf() returns the index of a specific character
+		 * if there are multiple of the same letter it will just output
+		 * the first time it sees that letter
 		 */
 		System.out.println(str.indexOf("H"));
 	}

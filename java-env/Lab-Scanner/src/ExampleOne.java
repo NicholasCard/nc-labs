@@ -34,6 +34,10 @@ public class ExampleOne {
 		 * 
 		 * -this is semi confusing because tokens are weird
 		 * not sure what is doing the parsing
+		 * 
+		 * seems like the nextInt automatically parses the string into an int and the 
+		 * while loop just makes sure theres still something there
+		 *  
 		 */
 		String numbers = "1 2 3 4 5 6 7 8";
 	
